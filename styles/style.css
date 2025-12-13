@@ -1,1 +1,70 @@
-/* место для вашего кода */
+/*Общие селекторы*/
+.overlay {
+}
+
+/*header*/
+.header {
+}
+
+.header__menu {
+}
+
+.header__links-list {
+}
+
+.header__links-list-item {
+}
+
+.header__link {
+}
+
+.header__logo {
+}
+
+.header__logo-image {
+}
+
+.address {
+}
+
+.header__address {
+}
+
+/*main*/
+
+/*Секция "Сover"*/
+.cover {
+}
+
+.description {
+}
+
+/*Секция "Лоты"*/
+.lots {
+}
+
+/*Секция "О нас"*/
+.about {
+}
+
+.about__logo-image {
+}
+
+/*Footer*/
+.footer {
+}
+
+.footer__address {
+}
+
+.footer__links-list {
+}
+
+.footer__links-list-item {
+}
+
+.footer__link {
+}
+
+.socials__links-list {
+}
