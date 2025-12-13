@@ -4,30 +4,67 @@
 
 /*header*/
 .header {
-}
-
-.header__menu {
+    display: grid;
+    grid-template-columns: 1fr min-content 1fr;
+    align-items: center;
+    padding: 92px 50px 96px 50px;
+    font-family: Raleway;
+    font-size: 18px;
+    font-weight: normal;
+    background-color: #FFF;
 }
 
 .header__links-list {
+    display: flex;
+    gap: 12px;
 }
 
 .header__links-list-item {
+    list-style: inside circle;
+}
+
+.header__links-list-item-unmarked {
+    list-style: none;
 }
 
 .header__link {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.header__link-decoration-none {
+    text-decoration: none;
 }
 
 .header__logo {
+    width: 135px;
+    height: 105px;
 }
 
 .header__logo-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
 }
 
 .address {
+    display: flex;
+    flex-direction: column;
+    line-height: 135%;
 }
 
 .header__address {
+    max-width: 240px;
+    justify-self: end;
+}
+
+.address a {
+    text-decoration: underline;
+    text-underline-offset: 4px;
+}
+
+.address p {
+    text-decoration: none;
 }
 
 /*main*/
